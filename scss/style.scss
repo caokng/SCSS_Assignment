@@ -1,0 +1,174 @@
+@use 'foundations/index' as *;
+@use 'components/button/button';
+
+
+
+
+@mixin heading-default {
+    font-family: Georgia;
+    font-weight: 600;
+
+}
+
+body {
+    font-family: $font-sans;
+}
+
+h1 {
+    font-family: $font-heading;
+    font-size: $font-size-lg;
+    font-weight: bold;
+    line-height: $line-height-heading;
+
+}
+
+h2 {
+
+    @include heading-default;
+}
+
+
+
+button {
+    color: rgb(30, 13, 126);
+}
+
+
+.swatch {
+
+    .blue-100 {
+        background-color: $color_primary_100;
+        width: 150px;
+        height: 150px;
+    }
+
+    .blue-200 {
+        background-color: $color_primary_200;
+        width: 150px;
+        height: 150px;
+    }
+
+    .blue-300 {
+        background-color: $color_primary_300;
+        width: 150px;
+        height: 150px;
+    }
+
+    .blue-400 {
+        background-color: $color_primary_400;
+        width: 150px;
+        height: 150px;
+    }
+
+    .blue-500 {
+        background-color: $color_primary_500;
+        width: 150px;
+        height: 150px;
+    }
+
+    .orange-100 {
+        background-color: $color_secondary_100;
+        width: 150px;
+        height: 150px;
+    }
+
+    .orange-200 {
+        background-color: $color_secondary_200;
+        width: 150px;
+        height: 150px;
+    }
+
+    .orange-300 {
+        background-color: $color_secondary_300;
+        width: 150px;
+        height: 150px;
+    }
+
+    .orange-400 {
+        background-color: $color_secondary_400;
+        width: 150px;
+        height: 150px;
+    }
+
+    .orange-500 {
+        background-color: $color_secondary_500;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.swatch-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: $spacing-500;
+    max-width: 950px;
+    gap: $spacing-400;
+
+}
+
+.typography-container {
+
+    .font-lg,
+    h1 {
+        font-family: $font-heading;
+        font-size: $font-size-lg;
+        font-weight: bold;
+        line-height: $line-height-heading;
+
+    }
+
+    .font-md,
+    h2 {
+        font-family: $font-sans;
+        font-size: $font-size-md;
+        line-height: $line-height-body;
+
+    }
+
+
+    .font-sm,
+    h3 {
+        font-family: $font-sans;
+        font-size: $font-size-sm;
+        line-height: $line-height-body;
+
+    }
+}
+
+.spacing-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+
+
+.spacing {
+    background: #373738;
+    height: 20px;
+}
+
+
+.spacing-container {
+    .spacing-100 {
+        width: $spacing-100;
+    }
+
+    .spacing-200 {
+        width: $spacing-200;
+    }
+
+    .spacing-300 {
+        width: $spacing-300;
+    }
+
+    .spacing-400 {
+        width: $spacing-400;
+    }
+
+    .spacing-500 { 
+        width: $spacing-500; 
+    }
+} 

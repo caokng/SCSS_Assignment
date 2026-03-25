@@ -1,0 +1,129 @@
+/*Primary Colours*/
+/*Secondary Colours*/
+body {
+  font-family: "Arial", "sans-serif";
+}
+
+h1 {
+  font-family: "Helvetica", "sans-serif";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: 600;
+}
+
+button {
+  color: rgb(30, 13, 126);
+}
+
+.swatch .blue-100 {
+  background-color: #c0def3;
+  width: 150px;
+  height: 150px;
+}
+.swatch .blue-200 {
+  background-color: #84B5D9;
+  width: 150px;
+  height: 150px;
+}
+.swatch .blue-300 {
+  background-color: #4683AE;
+  width: 150px;
+  height: 150px;
+}
+.swatch .blue-400 {
+  background-color: #1C4969;
+  width: 150px;
+  height: 150px;
+}
+.swatch .blue-500 {
+  background-color: #032137;
+  width: 150px;
+  height: 150px;
+}
+.swatch .orange-100 {
+  background-color: #FFE0B9;
+  width: 150px;
+  height: 150px;
+}
+.swatch .orange-200 {
+  background-color: #ECBD85;
+  width: 150px;
+  height: 150px;
+}
+.swatch .orange-300 {
+  background-color: #DC9E53;
+  width: 150px;
+  height: 150px;
+}
+.swatch .orange-400 {
+  background-color: #BE7113;
+  width: 150px;
+  height: 150px;
+}
+.swatch .orange-500 {
+  background-color: #9A5603;
+  width: 150px;
+  height: 150px;
+}
+
+.swatch-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 64px;
+  max-width: 950px;
+  gap: 32px;
+}
+
+.typography-container .font-lg,
+.typography-container h1 {
+  font-family: "Helvetica", "sans-serif";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.typography-container .font-md,
+.typography-container h2 {
+  font-family: "Arial", "sans-serif";
+  font-size: 20px;
+  line-height: 1.5;
+}
+.typography-container .font-sm,
+.typography-container h3 {
+  font-family: "Arial", "sans-serif";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.spacing-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.spacing {
+  background: #373738;
+  height: 20px;
+}
+
+.spacing-container .spacing-100 {
+  width: 4px;
+}
+.spacing-container .spacing-200 {
+  width: 8px;
+}
+.spacing-container .spacing-300 {
+  width: 16px;
+}
+.spacing-container .spacing-400 {
+  width: 32px;
+}
+.spacing-container .spacing-500 {
+  width: 64px;
+}/*# sourceMappingURL=style.css.map */

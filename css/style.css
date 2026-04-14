@@ -4,6 +4,7 @@
   display: block;
   width: 24px;
   height: 24px;
+  background-repeat: no-repeat;
 }
 
 .home_icon {

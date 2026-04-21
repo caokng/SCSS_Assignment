@@ -1,3 +1,13 @@
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 64px;
+    max-width: 950px;
+    gap: 32px;
+
+}
+
 .icon{
     display: block;
     width: 100px;

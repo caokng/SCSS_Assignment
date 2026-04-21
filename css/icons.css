@@ -4,6 +4,8 @@
   width: 100px;
   height: 100px;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .home_icon {

@@ -1,42 +1,46 @@
-.btn .small_primary_button {
+.btn {
+  border: none;
+  cursor: pointer;
+}
+
+.small_primary_button {
   width: 120px;
   height: 60px;
   border-radius: 12px;
   background-color: #C5E7FF;
-  stroke: #C5E7FF;
 }
-.btn .medium_primary_button {
+
+.medium_primary_button {
   width: 150px;
   height: 60px;
   border-radius: 12px;
   background-color: #C5E7FF;
-  stroke: #C5E7FF;
 }
-.btn .large_primary_button {
+
+.large_primary_button {
   width: 180px;
   height: 60px;
   border-radius: 12px;
   background-color: #C5E7FF;
-  stroke: #C5E7FF;
 }
-.btn .small_secondary_button {
+
+.small_secondary_button {
   width: 120px;
   height: 60px;
   border-radius: 12px;
   background-color: #FFE0B9;
-  stroke: #FFE0B9;
 }
-.btn .medium_secondary_button {
+
+.medium_secondary_button {
   width: 150px;
   height: 60px;
   border-radius: 12px;
   background-color: #FFE0B9;
-  stroke: #FFE0B9;
 }
-.btn .large_secondary_button {
+
+.large_secondary_button {
   width: 180px;
   height: 60px;
   border-radius: 12px;
   background-color: #FFE0B9;
-  stroke: #FFE0B9;
 }/*# sourceMappingURL=button.css.map */

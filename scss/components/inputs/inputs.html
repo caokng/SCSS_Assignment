@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Inputs</title>
-    <link rel="stylesheet" href = "/SCSS_Assignment/css/style.css">
-    <link rel="stylesheet" href="/SCSS_Assignment/css/webstyle.css"> 
-    
-  </head>
-  <body>
-       <script src="/SCSS_Assignment/include-nav.js"></script>
+    <link rel="stylesheet" href="/SCSS_Assignment/css/style.css">
+    <link rel="stylesheet" href="/SCSS_Assignment/css/webstyle.css">
 
-  <!-- Include nav.html -->
-  <div data-include="/SCSS_Assignment/nav.html"></div>
-  
+</head>
+
+<body>
+    <script src="/SCSS_Assignment/include-nav.js"></script>
+
+    <!-- Include nav.html -->
+    <div data-include="/SCSS_Assignment/nav.html"></div>
+
     <main>
-        <h1>My Inputs</h1> 
-        
-<p>These are the inputs for my Design System.</p>
+        <h1>My Inputs</h1>
 
-<label for="small_text_box">Input</label><br>
-  <input type="text" id="small_text_box" placeholder="Type Here..." name="small_text_box"><br>
+        <p>These are the inputs for my Design System.</p>
 
-  <p>Choose one of the options:</p>
+        <label for="small_text_box">Input</label><br>
+        <input type="text" id="small_text_box" placeholder="Type Here..." name="small_text_box"><br>
 
-<form>
-  <input type="radio" id="yes" name="option1" value="option1">
-  <label for="option1">Yes</label><br>
-  <input type="radio" id="no" name="option2" value="option2">
-  <label for="option2">No</label><br>
-  <input type="radio" id="maybe" name="option3" value="option3">
-  <label for="option3">Maybe</label>
-</form>
+        <br><br>
 
-<input type="radio">
+        <p>Choose one of the options:</p>
+        <form>
+            <input type="radio" id="yes" name="option1" value="option1">
+            <label for="option1">Yes</label><br>
+            <input type="radio" id="no" name="option2" value="option2">
+            <label for="option2">No</label><br>
+            <input type="radio" id="maybe" name="option3" value="option3">
+            <label for="option3">Maybe</label>
+        </form>
 
-</div>
+        <label for="subject">Choose a subject:</label>
+
+        <select name="subjects" id="subjects">
+            <option value="maths">Maths</option>
+            <option value="art">Art</option>
+            <option value="business">Business</option>
+            <option value="irish">Irish</option>
+        </select>
+
+
+
+        </div>
 
 
 
     </main>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
